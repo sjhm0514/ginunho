@@ -3380,7 +3380,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("https://i.ibb.co/hy9SV6H/lake-pehoe-torres-del-paine-national-park-landscape-lake-1920x1080-290.jpg")
+		background-image: url("https://i.ibb.co/HV4jqSY/lake-pehoe-torres-del-paine-national-park-landscape-lake-1920x1080-290.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3392,9 +3392,10 @@ input, select, textarea {
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
+		height: 100vh;
 		margin-bottom: -3.25em;
-		max-height: auto
-		min-height: auto
+		max-height: 32em;
+		min-height: 22em;
 		position: relative;
 		top: -3.25em;
 	}
@@ -3409,15 +3410,16 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-image: url("https://i.ibb.co/hy9SV6H/lake-pehoe-torres-del-paine-national-park-landscape-lake-1920x1080-290.jpg");
+			background-size: cover;
+			background-image: url("https://i.ibb.co/HV4jqSY/lake-pehoe-torres-del-paine-national-park-landscape-lake-1920x1080-290.jpg");
 			content: '';
 			display: block;
-			height: 100%;
+			height: 100%vw
 			left: 0;
 			opacity: 0.85;
 			position: absolute;
 			top: 0;
-			width: 100%;
+			width: 100vw;
 			z-index: 1;
 		}
 
